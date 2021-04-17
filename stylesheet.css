@@ -1,0 +1,83 @@
+body {
+	font-size: 15px;
+	font-family: Georgia, 游明朝, YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
+	line-height: 1.8;
+}
+
+a{
+	text-decoration: none;
+	color: #444;
+}
+
+header{
+	height: 152px;
+	margin-top: 50px;
+}
+
+.container{
+	width: 1040px;
+	margin:0 auto;
+}
+
+.header-list h1{
+	font-size: 36px;
+	line-height: 42px;
+}
+
+.header-right{
+	float: right;
+}
+
+.header-list p{
+	float: left;
+}
+
+.gnav li{
+	float: left;
+	font-size: 16.88px;
+	padding: 0 15px;
+	position: relative;
+}
+
+ul{
+	list-style: none;
+}
+
+.gnav ul{
+	padding: 0px 0px 30px 7px;
+}
+
+.gnav li ul{
+	position: absolute;
+	top: 30px;
+	left: -5px;
+	visibility: hidden;
+}
+
+.gnav li a{
+	display: block;
+	padding-bottom: 14px;
+}
+
+.gnav li li{
+	width: 168px;
+	border: 1px solid #f0f0f0;
+	padding: 15px 20px 1px 20px;
+	box-shadow: 0.5px 0.5px #f0f0f0;
+	background-color: white;
+	opacity: 0;
+	transition: all 0.3s;
+}
+
+.fas{
+	padding-left: 5px;
+}
+
+.gnav li:hover ul li{
+	visibility: visible;
+	opacity: 1;
+}
+
+.gnav li a:hover{
+	color: #C49024;
+}
