@@ -81,3 +81,122 @@ ul{
 .gnav li a:hover{
 	color: #C49024;
 }
+
+.gnav{
+	padding: 0 200px 0 0;
+}
+
+.search-wrapper{
+	height: 40px;
+	display: inline-block;
+	position: relative;
+	float: right;
+}
+
+.search{
+	width: 0px;
+	height: 36px;
+	background: url(image/icons8-検索-50.png)    left  center no-repeat;
+	background-size: 29px 29px;
+	padding-left: 40px;
+	padding-top: 3px;
+	font-size: 16.88px;
+	border: 1px solid rgb(119, 119, 119);
+	z-index: 5;
+	position: absolute;
+	right: 0;
+	top: -9px;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+.search:focus{
+	width: 188px;
+	height: 30px;
+	border: 1px solid rgb(119, 119, 119);
+	background-color: white;
+	cursor: text;
+}
+
+.top-wrapper{
+	height: 780px;
+}
+
+.top-wrapper p{
+	font-size: 27px;
+	color: #777;
+	padding-top: 90px;
+}
+
+.main-wrapper{
+	height: 1440px;
+}
+
+.main-wrapper .container{
+	border-bottom: 1px solid #777;
+	padding-bottom: 150px;
+}
+
+.date{
+	float: left;
+	margin-right: 220px;
+	margin-bottom: 30px;
+	font-size: 16.8px;
+	color: #999;
+	opacity: 0.5;
+}
+
+.date:hover{
+	opacity: 1;
+}
+
+.textarea{
+	width: 700px;
+	display: inline-block;
+}
+
+.text-heading{
+	color: #111;
+	font-size: 22.4px;
+	padding-bottom: 20px;
+}
+
+.text-heading a:hover{
+	color: #c49029;
+}
+
+.text{
+	font-size: 16.88px;
+	color: #666;
+}
+
+.text-box{
+	padding-bottom: 60px;
+}
+
+.page-list li{
+	float: left;
+	font-size: 16.8px;
+	color: #777;
+	display: inline-block;
+	border: 1px solid #ccc;
+	padding: 13px 15px;
+	margin-left: 8px;
+	opacity: 0.5;
+}
+
+.page-list li:hover{
+	opacity: 1;
+}
+
+.page-list{
+	margin-left: 320px;
+}
+
+.this{
+	background-color: #eeeeee;
+	color: #333;
+	opacity: 1;
+}
